@@ -1,0 +1,20 @@
+<ion-view title="Add New" id="page2">
+  <ion-content padding="true" class="has-header">
+    <form id="addNew-form1" class="list" ng-submit="submitForm()">
+      <label class="item item-input" id="addNew-input2" name="name">
+        <span class="input-label">Name:</span>
+        <input type="text" placeholder="Credit Card Bill" ng-model="newEntry.name" >
+      </label>
+      <label class="item item-input" id="price" name="price">
+        <span class="input-label">Price:</span>
+        <input type="text" placeholder="$30.90" ng-model="newEntry.price">
+      </label>
+      <label class="item item-input" id="addNew-textarea1" name="description">
+        <span class="input-label">Description:</span><textarea placeholder="I almost lost control! Thanks 2Pay!" ng-model="newEntry.desc"></textarea></label>
+      <div class="spacer" style="width: 300px; height: 45px;"></div>
+      <div id="addNew-button-bar1" class="button-bar">
+        <button id="addNew-button6" class="button button-positive  button-block">Add</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
